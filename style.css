@@ -40,7 +40,7 @@ body{
     100%{right: 0px;}
 }
 .name::before{
-    content: "ABDULLAH=JUTT";
+    content: "ABDULLAH  JUTT";
     position: absolute;
     color: white;
     border-right: 2px solid gold;
@@ -149,7 +149,7 @@ body{
         100%{right: 0px;}
     }
 .name::before{
-    content: "ABDULLAH=JUTT";
+    content: "ABDULLAH  JUTT";
     position: absolute;
     color: white;
     border-right: 2px solid gold;
