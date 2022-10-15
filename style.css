@@ -1,0 +1,180 @@
+body{
+    background-color: black;
+}
+.cont{
+    background-color: rgb(99, 0, 0);
+    width: 40vw;
+    height: 60vh;
+    margin: 100px 0px 0px 350px;
+    position: relative;
+    border-radius: 20%;
+}
+.main{ 
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+    margin: 1px 0px 0px 50px;
+    position: relative;
+}
+.img{
+    margin-top: 40px;
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    animation: slide_animation 20s infinite;
+    position: relative;
+}
+@keyframes slide_animation{
+    0%{right: 0px;}
+    10%{right: 200px;}
+    20%{right: 400px;}
+    30%{right: 600px;}
+    40%{right: 800px;}
+    50%{right: 1000px;}
+    60%{right: 1200px;}
+    70%{right: 1000px;}
+    80%{right: 800px;}
+    85%{right: 600px;}
+    90%{right: 400px;}
+    95%{right: 200px;}
+    100%{right: 0px;}
+}
+.name{
+    position: relative;
+    font-size: x-large;
+    font-weight: 900px;
+    bottom: 280px;
+    left: 310px;
+    color: goldenrod;
+    border: 2px solid aqua;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
+.snapchat{
+    position: relative;
+    bottom: 250px;
+    left: 310px;
+    color: yellow;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
+.instagram{
+    position: relative;
+    bottom: 250px;
+    left: 310px;
+    color: rgb(240, 30, 30);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
+.slink{
+    position: relative;
+    bottom: 295px;
+    left: 375px;
+    color: yellow;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500px;
+}
+#ilink{
+    position: relative;
+    bottom: 275px;
+    left: 325px;
+    color: red;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 500px;
+}
+@media (max-width: 940px){
+    body{
+        background-color: black;
+    }
+    .cont{
+        background-color: rgb(99, 0, 0);
+        width: 85vw;
+        height: 80vh;
+        margin: 10px 0px 0px 10px;
+        position: relative;
+        border-radius: 20%;
+    }
+    .main{ 
+        width: 50vw;
+        height: 60vh;
+        overflow: hidden;
+        margin: 20px 0px 0px 70px;
+        position: relative;
+    }
+    .img{
+        width: 200px;
+        height: fit-content;
+        display: flex;
+        animation: slide_animation 20s infinite;
+        position: relative;
+    }
+    @keyframes slide_animation{
+        0%{right: 0px;}
+        10%{right: 200px;}
+        20%{right: 400px;}
+        30%{right: 600px;}
+        40%{right: 800px;}
+        50%{right: 1000px;}
+        60%{right: 1200px;}
+        70%{right: 1000px;}
+        80%{right: 800px;}
+        85%{right: 600px;}
+        90%{right: 400px;}
+        95%{right: 200px;}
+        100%{right: 0px;}
+    }
+    .name{
+        position: relative;
+        font-size: x-large;
+        font-weight: 900px;
+        bottom: 40px;
+        left: 65px;
+        color: goldenrod;
+        border: 2px solid aqua;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 10px;
+    }
+    .snapchat{
+        position: relative;
+        bottom: 30px;
+        left: 65px;
+        color: yellow;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 10px;
+    }
+    .instagram{
+        position: relative;
+        bottom: 30px;
+        left: 65px;
+        color: rgb(240, 30, 30);
+        width: fit-content;
+        height: fit-content;
+        border-radius: 10px;
+    }
+    .slink{
+        position: relative;
+        bottom: 73px;
+        left: 130px;
+        color: yellow;
+        text-decoration: none;
+        font-size: large;
+        font-weight: 500px;
+    }
+    #ilink{
+        position: relative;
+        bottom: 50px;
+        left: 85px;
+        color: rgb(255, 86, 86);
+        text-decoration: none;
+        font-size: x-large;
+        font-weight: 500px;
+    }
+
+}
