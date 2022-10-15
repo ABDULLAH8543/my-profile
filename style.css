@@ -160,7 +160,7 @@ body{
     }
     .slink{
         position: relative;
-        bottom: 63px;
+        bottom: 53px;
         left: 130px;
         color: yellow;
         text-decoration: none;
@@ -169,7 +169,7 @@ body{
     }
     #ilink{
         position: relative;
-        bottom: 30px;
+        bottom: 25px;
         left: 85px;
         color: rgb(255, 86, 86);
         text-decoration: none;
