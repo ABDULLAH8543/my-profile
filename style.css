@@ -1,3 +1,4 @@
+
 body{
     background-color: black;
 }
@@ -38,26 +39,6 @@ body{
     90%{right: 400px;}
     95%{right: 200px;}
     100%{right: 0px;}
-}
-.name::before{
-    content: "ABDULLAHJUTT";
-    position: absolute;
-    color: white;
-    border-right: 2px solid gold;
-    animation: slide 3s linear infinite;
-    -webkit-animation: slide 3s linear infinite;
-    overflow: hidden;
-}
-@keyframes slide{
-    0%{
-        width: 0%;
-    }
-    50%{
-        width: 100%;
-    }
-    100%{
-        width: 0%;
-    }
 }
 .name{
     position: relative;
@@ -148,6 +129,26 @@ body{
         95%{right: 200px;}
         100%{right: 0px;}
     }
+.name::before{
+    content: "ABDULLAH JUTT";
+    position: absolute;
+    color: white;
+    border-right: 2px solid gold;
+    animation: slide 3s linear infinite;
+    -webkit-animation: slide 3s linear infinite;
+    overflow: hidden;
+}
+@keyframes slide{
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
+}
     .name{
         position: relative;
         font-size: x-large;
