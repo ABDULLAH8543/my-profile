@@ -110,7 +110,7 @@ body{
 @media (max-width: 940px){
     body{
         background-color: black;
-        Width: 10vw;
+        background-size: 10vw 10vh;
     }
     .cont{
         background-color: rgb(99, 0, 0);
