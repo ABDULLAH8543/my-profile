@@ -8,6 +8,14 @@ body{
     margin: 1px 0px 0px 50px;
     position: relative;
 }
+.cont{
+    background-color: rgb(99, 0, 0);
+    width: 85vw;
+    height: 90vh;
+    margin: 10px 0px 0px 10px;
+    position: relative;
+    border-radius: 20%;
+    }
 .img{
     margin-top: 40px;
     width: 200px;
@@ -96,14 +104,6 @@ body{
 @media (max-width: 940px){
     body{
         background-color: black;
-    }
-    .cont{
-        background-color: rgb(99, 0, 0);
-        width: 85vw;
-        height: 90vh;
-        margin: 10px 0px 0px 10px;
-        position: relative;
-        border-radius: 20%;
     }
     .main{ 
         width: 50vw;
