@@ -76,18 +76,12 @@ body{
     bottom: 250px;
     left: 310px;
     color: yellow;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 10px;
 }
 .instagram{
     position: relative;
     bottom: 250px;
     left: 310px;
     color: rgb(240, 30, 30);
-    width: fit-content;
-    height: fit-content;
-    border-radius: 10px;
 }
 .slink{
     position: relative;
@@ -110,7 +104,6 @@ body{
 @media (max-width: 940px){
     body{
         background-color: black;
-        Background-size: 10vh 10vw;
     }
     .cont{
         background-color: rgb(99, 0, 0);
@@ -186,18 +179,12 @@ body{
         bottom: 5px;
         left: 65px;
         color: yellow;
-        width: fit-content;
-        height: fit-content;
-        border-radius: 10px;
     }
     .instagram{
         position: relative;
         bottom: 5px;
         left: 65px;
         color: rgb(240, 30, 30);
-        width: fit-content;
-        height: fit-content;
-        border-radius: 10px;
     }
     .slink{
         position: relative;
