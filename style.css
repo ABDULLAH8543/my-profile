@@ -1,6 +1,5 @@
 body{
     background-color: black;
-    Overflow: hidden;
 }
 .cont{
     background-color: rgb(99, 0, 0);
@@ -111,6 +110,7 @@ body{
 @media (max-width: 940px){
     body{
         background-color: black;
+        Background-size: 10vh 10vw;
     }
     .cont{
         background-color: rgb(99, 0, 0);
