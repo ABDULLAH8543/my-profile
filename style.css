@@ -1,14 +1,6 @@
 body{
     background-color: black;
 }
-.cont{
-    background-color: rgb(99, 0, 0);
-    width: 40vw;
-    height: 60vh;
-    margin: 100px 0px 0px 350px;
-    position: relative;
-    border-radius: 20%;
-}
 .main{ 
     width: fit-content;
     height: fit-content;
