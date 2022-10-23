@@ -104,12 +104,11 @@ body{
 @media (max-width: 940px){
     body{
         background-color: black;
-        Background: 50px 50px;
     }
     .cont{
         background-color: rgb(99, 0, 0);
         width: 85vw;
-        height: 90vh;
+        height: 50vh;
         margin: 10px 0px 0px 10px;
         position: relative;
         border-radius: 20%;
