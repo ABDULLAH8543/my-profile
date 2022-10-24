@@ -109,9 +109,9 @@ body{
 }
 @media (max-width: 940px){
     .cont{
-        margin: 30px 0px 0px 30px;
+        margin: 60px 0px 0px 10px;
         position: relative;
-        width: 10vw;
+        width: 2vw;
         height: 40vh;
         background-color: red;
         border-radius: 10%;
