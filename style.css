@@ -114,7 +114,6 @@ body{
         background-repeat: no-repeat;
         background-size: 100vw 100vh;
         overflow: hidden;
-        scroll-behavior: none;
     }
     .cont{
         margin: 0px 0px 0px 0px;
