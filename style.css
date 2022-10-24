@@ -113,8 +113,8 @@ body{
         position: relative;
         width: 50vw;
         height: 50vh;
-        background: rgb(255,0,0);
-        background: linear-gradient(220deg, rgba(255,0,0,1) 48%, rgba(0,0,0,1) 48%);
+        background: rgb(0,0,0);
+        background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(181,2,2,1) 50%, rgba(255,1,1,1) 66%, rgba(0,0,0,1) 100%);
     }
     .main{ 
         width: 60vw;
@@ -135,11 +135,11 @@ body{
         10%{right: 200px;}
         20%{right: 420px;}
         30%{right: 680px;}
-        40%{right: 890px;}
+        40%{right: 910px;}
         50%{right: 1150px;}
         60%{right: 1380px;}
         70%{right: 1150px;}
-        80%{right: 890px;}
+        80%{right: 910px;}
         85%{right: 640px;}
         90%{right: 420px;}
         95%{right: 200px;}
