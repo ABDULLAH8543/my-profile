@@ -128,8 +128,8 @@ body{
         position: relative;
         font-size: x-large;
         font-weight: 900px;
-        bottom: 110px;
-        left: 65px;
+        bottom: 100px;
+        left: 60px;
         color: goldenrod;
         border: 2px solid aqua;
         width: fit-content;
@@ -138,19 +138,19 @@ body{
     }
     .snapchat{
         position: relative;
-        bottom: 85px;
+        bottom: 75px;
         left: 65px;
         color: yellow;
     }
     .instagram{
         position: relative;
-        bottom: 105px;
+        bottom: 70px;
         left: 65px;
         color: rgb(255, 0, 0);
     }
     .slink{
         position: relative;
-        bottom: 130px;
+        bottom: 75px;
         left: 130px;
         color: yellow;
         text-decoration: none;
