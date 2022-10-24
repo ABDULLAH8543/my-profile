@@ -154,7 +154,7 @@ body{
         position: relative;
         font-size: x-large;
         font-weight: 900px;
-        bottom: 90px;
+        bottom: 70px;
         left: 55px;
         color: white;
         border: 2px solid aqua;
@@ -164,19 +164,19 @@ body{
     }
     .snapchat{
         position: relative;
-        bottom: 70px;
+        bottom: 50px;
         left: 65px;
         color: yellow;
     }
     .instagram{
         position: relative;
-        bottom: 80px;
+        bottom: 60px;
         left: 65px;
         color: rgb(255, 0, 0);
     }
     .slink{
         position: relative;
-        bottom: 115px;
+        bottom: 95px;
         left: 130px;
         color: yellow;
         text-decoration: none;
@@ -185,7 +185,7 @@ body{
     }
     #ilink{
         position: relative;
-        bottom: 130px;
+        bottom: 110px;
         left: 130px;
         color: rgb(255, 0, 0);
         text-decoration: none;
