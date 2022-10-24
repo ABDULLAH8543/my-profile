@@ -92,8 +92,8 @@ body{
         position: relative;
         width: 50vw;
         height: 50vh;
-        background: rgb(255,0,0);
-        background: linear-gradient(230deg, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 50%);
+       background: rgb(255,0,0);
+       background: linear-gradient(159deg, rgba(255,0,0,1) 0%, rgba(255,10,10,1) 65%, rgba(0,255,94,1) 66%, rgba(0,0,0,1) 67%);
     }
     .main{ 
         width: 60vw;
@@ -128,7 +128,7 @@ body{
         position: relative;
         font-size: x-large;
         font-weight: 900px;
-        bottom: 90px;
+        bottom: 100px;
         left: 65px;
         color: goldenrod;
         border: 2px solid aqua;
@@ -144,13 +144,13 @@ body{
     }
     .instagram{
         position: relative;
-        bottom: 85px;
+        bottom: 105px;
         left: 65px;
         color: rgb(255, 0, 0);
     }
     .slink{
         position: relative;
-        bottom: 120px;
+        bottom: 130px;
         left: 130px;
         color: yellow;
         text-decoration: none;
@@ -159,7 +159,7 @@ body{
     }
     #ilink{
         position: relative;
-        bottom: 110px;
+        bottom: 130px;
         left: 85px;
         color: rgb(255, 0, 0);
         text-decoration: none;
