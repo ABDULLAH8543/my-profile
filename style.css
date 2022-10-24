@@ -118,7 +118,7 @@ body{
         width: 60vw;
         height: 60vh;
         overflow: hidden;
-        margin: 0px 0px 30px 60px;
+        margin: 0px 0px 60px 60px;
         position: relative;
     }
     .img{
@@ -178,8 +178,8 @@ body{
     }
     #ilink{
         position: relative;
-        bottom: 88px;
-        left: 85px;
+        bottom: 100px;
+        left: 110px;
         color: rgb(255, 0, 0);
         text-decoration: none;
         font-size: x-large;
