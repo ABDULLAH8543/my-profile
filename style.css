@@ -124,7 +124,7 @@ body{
         width: 60vw;
         height: 60vh;
         overflow: hidden;
-        margin: 0px 0px 80px 60px;
+        margin: 0px 0px 60px 60px;
         position: relative;
     }
     .img{
@@ -163,19 +163,19 @@ body{
     }
     .snapchat{
         position: relative;
-        bottom: 60px;
+        bottom: 70px;
         left: 65px;
         color: yellow;
     }
     .instagram{
         position: relative;
-        bottom: 70px;
+        bottom: 80px;
         left: 65px;
         color: rgb(255, 0, 0);
     }
     .slink{
         position: relative;
-        bottom: 105px;
+        bottom: 115px;
         left: 130px;
         color: yellow;
         text-decoration: none;
@@ -184,7 +184,7 @@ body{
     }
     #ilink{
         position: relative;
-        bottom: 120px;
+        bottom: 130px;
         left: 130px;
         color: rgb(255, 0, 0);
         text-decoration: none;
