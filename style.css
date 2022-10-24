@@ -109,7 +109,7 @@ body{
 }
 @media (max-width: 940px){
     .cont{
-/*         margin: 0px 0px 0px 0px; */
+        margin: 0px 0px 0px 0px;
         position: relative;
         width: 0vw;
         height: 0vh;
