@@ -112,6 +112,7 @@ body{
         background: rgb(8,8,8);
         background: linear-gradient(135deg, rgba(8,8,8,1) 43%, rgba(255,1,1,1) 43%, rgba(255,1,1,1) 44%, rgba(181,2,2,1) 52%, rgba(0,0,0,1) 52%);
         background-repeat: no-repeat;
+        background-size: 100% 100%; 
     }
     .cont{
         margin: 0px 0px 0px 0px;
@@ -123,7 +124,7 @@ body{
         width: 60vw;
         height: 60vh;
         overflow: hidden;
-        margin: 0px 0px 60px 60px;
+        margin: 0px 0px 80px 60px;
         position: relative;
     }
     .img{
