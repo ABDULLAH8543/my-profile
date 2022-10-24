@@ -1,5 +1,17 @@
 body{
-    background-color: black;
+    background: rgb(255,0,0);
+    background: linear-gradient(211deg, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 50%);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.cont{
+    background: rgb(105,0,90);
+    background: linear-gradient(211deg, rgba(105,0,90,1) 50%, rgba(195,23,87,1) 50%);
+    width: 40vw;
+    height: 60vh;
+    margin: 100px 0px 0px 350px;
+    position: relative;
+    border-radius: 20%;
 }
 .main{ 
     width: fit-content;
@@ -8,14 +20,6 @@ body{
     margin: 1px 0px 0px 50px;
     position: relative;
 }
-.cont{
-    background-color: rgb(99, 0, 0);
-    width: 85vw;
-    height: 90vh;
-    margin: 10px 0px 0px 10px;
-    position: relative;
-    border-radius: 20%;
-    }
 .img{
     margin-top: 40px;
     width: 200px;
@@ -39,26 +43,6 @@ body{
     95%{right: 200px;}
     100%{right: 0px;}
 }
-.name::before{
-    content: "ABDULLAH(JUTT)";
-    position: absolute;
-    color: white;
-    border-right: 2px solid gold;
-    animation: slide 3s linear infinite;
-    -webkit-animation: slide 3s linear infinite;
-    overflow: hidden;
-}
-@keyframes slide{
-    0%{
-        width: 0%;
-    }
-    50%{
-        width: 100%;
-    }
-    100%{
-        width: 0%;
-    }
-}
 .name{
     position: relative;
     font-size: x-large;
@@ -81,7 +65,7 @@ body{
     position: relative;
     bottom: 250px;
     left: 310px;
-    color: rgb(240, 30, 30);
+    color: rgb(255, 0, 0);
 }
 .slink{
     position: relative;
@@ -102,14 +86,19 @@ body{
     font-weight: 500px;
 }
 @media (max-width: 940px){
-    body{
-        background-color: black;
+    .cont{
+        margin: 10px 0px 0px 10px;
+        position: relative;
+        width: 50vw;
+        height: 80vh;
+        background: rgb(255,0,0);
+        background: linear-gradient(211deg, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 50%);
     }
     .main{ 
         width: 50vw;
         height: 60vh;
         overflow: hidden;
-        margin: 20px 0px 0px 70px;
+        margin: 20px 0px 0px 80px;
         position: relative;
     }
     .img{
@@ -134,31 +123,11 @@ body{
         95%{right: 200px;}
         100%{right: 0px;}
     }
-.name::before{
-    content: "ABDULLAH(JUTT)";
-    position: absolute;
-    color: white;
-    border-right: 2px solid gold;
-    animation: slide 3s linear infinite;
-    -webkit-animation: slide 3s linear infinite;
-    overflow: hidden;
-}
-@keyframes slide{
-    0%{
-        width: 0%;
-    }
-    50%{
-        width: 100%;
-    }
-    100%{
-        width: 0%;
-    }
-}
     .name{
         position: relative;
         font-size: x-large;
         font-weight: 900px;
-        bottom: 20px;
+        bottom: 40px;
         left: 65px;
         color: goldenrod;
         border: 2px solid aqua;
@@ -168,19 +137,19 @@ body{
     }
     .snapchat{
         position: relative;
-        bottom: 5px;
+        bottom: 30px;
         left: 65px;
         color: yellow;
     }
     .instagram{
         position: relative;
-        bottom: 5px;
+        bottom: 30px;
         left: 65px;
-        color: rgb(240, 30, 30);
+        color: rgb(255, 0, 0);
     }
     .slink{
         position: relative;
-        bottom: 50px;
+        bottom: 73px;
         left: 130px;
         color: yellow;
         text-decoration: none;
@@ -189,12 +158,11 @@ body{
     }
     #ilink{
         position: relative;
-        bottom: 25px;
+        bottom: 50px;
         left: 85px;
-        color: rgb(255, 86, 86);
+        color: rgb(255, 0, 0);
         text-decoration: none;
         font-size: x-large;
         font-weight: 500px;
     }
-
 }
