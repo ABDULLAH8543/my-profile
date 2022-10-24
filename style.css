@@ -115,6 +115,7 @@ body{
         height: 50vh;
         background: rgb(0,0,0);
         background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(181,2,2,1) 50%, rgba(255,1,1,1) 66%, rgba(0,0,0,1) 100%);
+        display: none;
     }
     .main{ 
         width: 60vw;
