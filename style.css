@@ -99,7 +99,8 @@ body{
         width: 60vw;
         height: 60vh;
         overflow: hidden;
-        margin: 0px 0px 70px 55px;
+        margin: 0px 0px 0px 60px;
+        padding-bottom: 20px;
         position: relative;
     }
     .img{
