@@ -1,6 +1,6 @@
 body{
     background: rgb(255,0,0);
-    background: linear-gradient(211deg, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 50%);
+    background: linear-gradient(209deg, rgba(255,0,0,1) 0%, rgba(255,10,10,1) 65%, rgba(0,255,94,1) 66%, rgba(0,0,0,1) 67%);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
@@ -99,7 +99,7 @@ body{
         width: 60vw;
         height: 60vh;
         overflow: hidden;
-        margin: 0px 0px 20px 60px;
+        margin: 0px 0px 50px 60px;
         position: relative;
     }
     .img{
@@ -150,7 +150,7 @@ body{
     }
     .slink{
         position: relative;
-        bottom: 95px;
+        bottom: 105px;
         left: 130px;
         color: yellow;
         text-decoration: none;
@@ -159,7 +159,7 @@ body{
     }
     #ilink{
         position: relative;
-        bottom: 110px;
+        bottom: 90px;
         left: 85px;
         color: rgb(255, 0, 0);
         text-decoration: none;
