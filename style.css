@@ -103,7 +103,7 @@ body{
         position: relative;
     }
     .img{
-        width: 200px;
+        width: 250px;
         height: fit-content;
         display: flex;
         animation: slide_animation 20s infinite;
