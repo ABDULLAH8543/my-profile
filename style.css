@@ -113,9 +113,8 @@ body{
         position: relative;
         width: 50vw;
         height: 50vh;
-        background: rgb(0,0,0);
-        background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(181,2,2,1) 50%, rgba(255,1,1,1) 66%, rgba(0,0,0,1) 100%);
-        display: none;
+        background: rgb(8,8,8);
+        background: radial-gradient(circle, rgba(8,8,8,1) 65%, rgba(181,2,2,1) 65%, rgba(255,1,1,1) 66%, rgba(0,0,0,1) 67%);
     }
     .main{ 
         width: 60vw;
