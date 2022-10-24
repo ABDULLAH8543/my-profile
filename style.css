@@ -114,7 +114,7 @@ body{
         width: 50vw;
         height: 50vh;
         background-color: red;
-        border-radius: 100%;
+        border-radius: 10%;
     }
     .main{ 
         width: 60vw;
