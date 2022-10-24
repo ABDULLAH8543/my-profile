@@ -108,11 +108,15 @@ body{
     font-weight: 500px;
 }
 @media (max-width: 940px){
+    body{
+        background: rgb(8,8,8);
+        background: linear-gradient(135deg, rgba(8,8,8,1) 43%, rgba(255,1,1,1) 43%, rgba(255,1,1,1) 44%, rgba(181,2,2,1) 52%, rgba(0,0,0,1) 52%);
+    }
     .cont{
         margin: 0px 0px 0px 0px;
         position: relative;
         width: 0vw;
-        height: 0vh;
+        height: 10vh;
     }
     .main{ 
         width: 60vw;
@@ -178,8 +182,8 @@ body{
     }
     #ilink{
         position: relative;
-        bottom: 100px;
-        left: 110px;
+        bottom: 120px;
+        left: 130px;
         color: rgb(255, 0, 0);
         text-decoration: none;
         font-size: x-large;
