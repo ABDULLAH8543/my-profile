@@ -113,7 +113,8 @@ body{
         position: relative;
         width: 50vw;
         height: 50vh;
-        background-color: transparent;
+        background: rgb(255,0,0);
+        background: linear-gradient(220deg, rgba(255,0,0,1) 48%, rgba(0,0,0,1) 48%);
     }
     .main{ 
         width: 60vw;
@@ -150,7 +151,7 @@ body{
         font-weight: 900px;
         bottom: 90px;
         left: 55px;
-        color: goldenrod;
+        color: white;
         border: 2px solid aqua;
         width: fit-content;
         height: fit-content;
@@ -179,7 +180,7 @@ body{
     }
     #ilink{
         position: relative;
-        bottom: 90px;
+        bottom: 88px;
         left: 85px;
         color: rgb(255, 0, 0);
         text-decoration: none;
