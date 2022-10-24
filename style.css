@@ -87,18 +87,18 @@ body{
 }
 @media (max-width: 940px){
     .cont{
-        margin: 10px 0px 0px 10px;
+        margin: 0px 0px 0px 10px;
         position: relative;
         width: 50vw;
         height: 80vh;
         background: rgb(255,0,0);
-        background: linear-gradient(211deg, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 50%);
+        background: linear-gradient(230deg, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 50%);
     }
     .main{ 
         width: 50vw;
         height: 60vh;
         overflow: hidden;
-        margin: 20px 0px 0px 80px;
+        margin: 0px 0px 0px 80px;
         position: relative;
     }
     .img{
